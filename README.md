@@ -4,6 +4,24 @@
 
 Snippets to create faster and better [AmpersandJS](https://ampersandjs.com/) JavaScript apps. 
 
+## Installation
+
+~Use Sublime Text's [Package Control](https://sublime.wbond.net/installation) to install this plugin.~
+
+## Manual Installation
+
+Open up Terminal.app and execute these commands:
+
+### Sublime Text 2
+
+    cd ~/Library/"Application Support"/"Sublime Text 2"/Packages/
+    git clone git@github.com:HSH/AmpersandJS-Sublime-Text-Snippets.git
+
+### Sublime Text 3
+
+    cd ~/Library/"Application Support"/"Sublime Text 3"/Packages/
+    git clone git@github.com:HSH/AmpersandJS-Sublime-Text-Snippets.git
+
 ## Snippets
 
 To use a snippet, type the trigger codes (listed below in bold) then hit `tab` or `ctrl + enter`.

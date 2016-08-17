@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+view.renderCollection(${1:collection}, ${2:ItemView}, ${3:containerEl}${4:, ${5:viewOptions}})
+]]></content>
+  <tabTrigger>renderCollection</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>renderCollection function</description>
+</snippet>

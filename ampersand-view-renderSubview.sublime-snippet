@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+view.renderSubview(${1:viewInstance}, ${2:containerEl})
+]]></content>
+  <tabTrigger>renderSubview</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>renderSubview function</description>
+</snippet>

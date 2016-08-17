@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+${1:prop}: {
+  type: '${2:string}',
+  required: ${3:true},
+  default: '${4:}', 
+  values: ['${5:}'],
+  allowNull: ${6:false},
+  setOnce: ${7:false}
+}
+]]></content>
+  <tabTrigger>prop</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>State props property</description>
+</snippet>

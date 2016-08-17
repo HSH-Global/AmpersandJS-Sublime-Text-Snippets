@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+var AmpersandView = require('ampersand-view')
+
+module.exports = AmpersandView.extend({
+  template: function () {},
+  events: {
+
+  },
+  bindings: {
+
+  }
+})
+
+]]></content>
+  <tabTrigger>ampersandView</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>Ampersand View</description>
+</snippet>

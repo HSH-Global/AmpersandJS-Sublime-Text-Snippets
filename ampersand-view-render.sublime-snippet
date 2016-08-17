@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+render: function (${1:opts}) {
+  var view = this
+  ${2:view._upsertBindings()}
+  ${3:view.renderWithTemplate(view)}
+  ${4:}
+  return view
+}
+]]></content>
+  <tabTrigger>render</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>render function</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+deps: ['${1:property}'],
+fn: function () {
+  ${2:}
+},
+cache: ${3:true}
+]]></content>
+  <tabTrigger>deps</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>derived property</description>
+</snippet>
