@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+initialize: function (${1:opts}) {
+  var ${2:self} = this    
+},
+]]></content>
+  <tabTrigger>initialize</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>Ampersand initialize function</description>
+</snippet>

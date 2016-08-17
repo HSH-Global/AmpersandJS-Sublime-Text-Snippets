@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+view.registerSubview(${1:viewInstance})
+]]></content>
+  <tabTrigger>registerSubview</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>registerSubview function</description>
+</snippet>

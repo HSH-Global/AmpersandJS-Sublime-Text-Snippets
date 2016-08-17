@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+var AmpersandRestCollection = require('ampersand-rest-collection')
+var ${1:Model} = require('${2:../models/${3:}}')
+
+module.exports = AmpersandRestCollection.extend({
+  model: ${1:Model},
+  mainIndex: '${4:_id}',
+  url: '${5:}'
+})
+
+]]></content>
+  <tabTrigger>ampersandCollection</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>Ampersand REST Collection</description>
+</snippet>

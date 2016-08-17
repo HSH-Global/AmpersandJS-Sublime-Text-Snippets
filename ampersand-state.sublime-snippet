@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+var AmpersandModel = require('ampersand-model')
+
+module.exports = AmpersandModel.extend({
+  extraProperties: ${1:'ignore'},
+  props: {
+    ${2:}
+  },
+  session: {
+    ${3:}
+  },
+  derived: {
+    ${4:}
+  }
+})
+]]></content>
+  <tabTrigger>ampersandState</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>Ampersand State</description>
+</snippet>

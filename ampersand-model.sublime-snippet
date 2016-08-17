@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+var AmpersandModel = require('ampersand-model')
+
+module.exports = AmpersandModel.extend({
+  ajaxConfig: function () {
+    var model = this
+    return {
+      headers: {
+      
+      },
+      xhrFields: {
+      
+      }
+    }
+  },
+  url: function () {
+    var model = this
+
+    return model.urlRoot
+  },
+  urlRoot: '',
+  props: {},
+  session: {},
+  derived: {}
+})
+]]></content>
+  <tabTrigger>ampersandModel</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>Ampersand Model</description>
+</snippet>

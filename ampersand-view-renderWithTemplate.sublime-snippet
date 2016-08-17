@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+view.renderWithTemplate(${1:view}, ${2:view.template})
+]]></content>
+  <tabTrigger>renderWithTemplate</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>renderWithTemplate function</description>
+</snippet>
