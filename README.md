@@ -35,7 +35,7 @@ To use a snippet, type the trigger codes (listed below in bold) then hit `tab` o
 <snippet>
   <content><![CDATA[
 initialize: function (${1:opts}) {
-  var ${2:self} = this    
+  var ${2:self} = this
 },
 ]]></content>
   <tabTrigger>initialize</tabTrigger>
@@ -296,5 +296,31 @@ view.renderWithTemplate(${1:view}, ${2:view.template})
   <tabTrigger>renderWithTemplate</tabTrigger>
   <scope>source.js, source.jsx, source.ts</scope>
   <description>renderWithTemplate function</description>
+</snippet>
+```
+
+### [subviews](https://ampersandjs.com/docs/#ampersand-view-subviews) definition
+
+**Trigger:** subviews
+
+```xml
+<snippet>
+  <content><![CDATA[
+subviews: {
+  ${1:myStuff}: {
+    selector: '${2:[data-hook=collection-container]}',
+    waitFor: 'model.${3:stuffCollection}',
+    prepareView: function (el) {
+      return new ${4:CollectionRenderer}({
+        el: el,
+        collection: this.model.${3:stuffCollection}
+      })
+    }
+  }
+}
+]]></content>
+  <tabTrigger>subviews</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>subviews definition property</description>
 </snippet>
 ```
