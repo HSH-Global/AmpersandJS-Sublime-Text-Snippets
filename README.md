@@ -324,3 +324,69 @@ subviews: {
   <description>subviews definition property</description>
 </snippet>
 ```
+
+### [save Model](https://ampersandjs.com/docs/#ampersand-model-save) definition
+
+**Trigger:** save
+
+```xml
+<snippet>
+  <content><![CDATA[
+save(${1:view.model}, {
+  success: function (model, response, options) {
+
+  },
+  error: function (model, response, options) {
+
+  }
+})
+]]></content>
+  <tabTrigger>save</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>Save Ampersand Model</description>
+</snippet>
+```
+
+### [fetch Model](https://ampersandjs.com/docs/#ampersand-model-fetch) definition
+
+**Trigger:** fetch
+
+```xml
+<snippet>
+  <content><![CDATA[
+fetch({
+  success: function (model, response, options) {
+
+  },
+  error: function (model, response, options) {
+
+  }
+})
+]]></content>
+  <tabTrigger>fetch</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>Fetch Ampersand Model</description>
+</snippet>
+```
+
+### [destroy Model](https://ampersandjs.com/docs/#ampersand-model-destroy) definition
+
+**Trigger:** destroy
+
+```xml
+<snippet>
+  <content><![CDATA[
+destroy({
+  success: function (model, response, options) {
+
+  },
+  error: function (model, response, options) {
+
+  }
+})
+]]></content>
+  <tabTrigger>destroy</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>Destroy Ampersand Model</description>
+</snippet>
+```

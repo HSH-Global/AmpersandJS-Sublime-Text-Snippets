@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+save(${1:view.model}, {
+  success: function (model, response, options) {
+
+  },
+  error: function (model, response, options) {
+
+  }
+})
+]]></content>
+  <tabTrigger>save</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>Save Ampersand Model</description>
+</snippet>
