@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-var AmpersandModel = require('ampersand-model')
+var AmpersandModel = require('ampersand-state')
 
 module.exports = AmpersandModel.extend({
   extraProperties: ${1:'ignore'},
