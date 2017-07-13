@@ -6,7 +6,7 @@ Snippets to create faster and better [AmpersandJS](https://ampersandjs.com/) Jav
 
 ## Installation
 
-~Use Sublime Text's [Package Control](https://sublime.wbond.net/installation) to install this plugin.~
+Use Sublime Text's [Package Control](https://sublime.wbond.net/installation) to install this plugin.
 
 ## Manual Installation
 
@@ -51,7 +51,7 @@ initialize: function (${1:opts}) {
 ```xml
 <snippet>
   <content><![CDATA[
-var AmpersandModel = require('ampersand-model')
+var AmpersandModel = require('ampersand-state')
 
 module.exports = AmpersandModel.extend({
   extraProperties: ${1:'ignore'},
