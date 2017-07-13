@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+destroy({
+  success: function (model, response, options) {
+
+  },
+  error: function (model, response, options) {
+
+  }
+})
+]]></content>
+  <tabTrigger>destroy</tabTrigger>
+  <scope>source.js, source.jsx, source.ts</scope>
+  <description>Destroy Ampersand Model</description>
+</snippet>
